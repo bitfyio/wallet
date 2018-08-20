@@ -104,7 +104,7 @@
         "id": 2876,
         "nodeType": "ImportDirective",
         "scope": 2946,
-        "sourceUnit": 6287,
+        "sourceUnit": 3771,
         "src": "57:50:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -115,7 +115,7 @@
         "id": 2877,
         "nodeType": "ImportDirective",
         "scope": 2946,
-        "sourceUnit": 8928,
+        "sourceUnit": 4450,
         "src": "108:53:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -129,10 +129,10 @@
               "id": 2878,
               "name": "IBancorConverterFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 6286,
+              "referencedDeclaration": 3770,
               "src": "233:23:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IBancorConverterFactory_$6286",
+                "typeIdentifier": "t_contract$_IBancorConverterFactory_$3770",
                 "typeString": "contract IBancorConverterFactory"
               }
             },
@@ -143,7 +143,7 @@
         ],
         "contractDependencies": [
           2872,
-          6286
+          3770
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -151,7 +151,7 @@
         "id": 2945,
         "linearizedBaseContracts": [
           2945,
-          6286
+          3770
         ],
         "name": "BancorConverterFactory",
         "nodeType": "ContractDefinition",
@@ -312,7 +312,7 @@
                         "referencedDeclaration": 2891,
                         "src": "1380:6:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                          "typeIdentifier": "t_contract$_ISmartToken_$3990",
                           "typeString": "contract ISmartToken"
                         }
                       },
@@ -325,7 +325,7 @@
                         "referencedDeclaration": 2893,
                         "src": "1400:9:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                          "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                           "typeString": "contract IContractRegistry"
                         }
                       },
@@ -351,7 +351,7 @@
                         "referencedDeclaration": 2897,
                         "src": "1454:15:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                          "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                           "typeString": "contract ITRC20Token"
                         }
                       },
@@ -372,11 +372,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                          "typeIdentifier": "t_contract$_ISmartToken_$3990",
                           "typeString": "contract ISmartToken"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                          "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                           "typeString": "contract IContractRegistry"
                         },
                         {
@@ -384,7 +384,7 @@
                           "typeString": "uint32"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                          "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                           "typeString": "contract ITRC20Token"
                         },
                         {
@@ -400,7 +400,7 @@
                       "nodeType": "NewExpression",
                       "src": "1347:19:5",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ISmartToken_$7969_$_t_contract$_IContractRegistry_$8927_$_t_uint32_$_t_contract$_ITRC20Token_$8049_$_t_uint32_$returns$_t_contract$_BancorConverter_$2872_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ISmartToken_$3990_$_t_contract$_IContractRegistry_$4449_$_t_uint32_$_t_contract$_ITRC20Token_$4070_$_t_uint32_$returns$_t_contract$_BancorConverter_$2872_$",
                         "typeString": "function (contract ISmartToken,contract IContractRegistry,uint32,contract ITRC20Token,uint32) returns (contract BancorConverter)"
                       },
                       "typeName": {
@@ -445,7 +445,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1548:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -494,7 +494,7 @@
                       "lValueRequested": false,
                       "memberName": "transferOwnership",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8544,
+                      "referencedDeclaration": 4219,
                       "src": "1520:27:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -531,7 +531,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1598:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -580,7 +580,7 @@
                       "lValueRequested": false,
                       "memberName": "transferManagement",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8464,
+                      "referencedDeclaration": 4139,
                       "src": "1569:28:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -717,7 +717,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1713:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -822,7 +822,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                    "typeIdentifier": "t_contract$_ISmartToken_$3990",
                     "typeString": "contract ISmartToken"
                   },
                   "typeName": {
@@ -830,10 +830,10 @@
                     "id": 2890,
                     "name": "ISmartToken",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 7969,
+                    "referencedDeclaration": 3990,
                     "src": "1102:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                      "typeIdentifier": "t_contract$_ISmartToken_$3990",
                       "typeString": "contract ISmartToken"
                     }
                   },
@@ -850,7 +850,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                    "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                     "typeString": "contract IContractRegistry"
                   },
                   "typeName": {
@@ -858,10 +858,10 @@
                     "id": 2892,
                     "name": "IContractRegistry",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8927,
+                    "referencedDeclaration": 4449,
                     "src": "1130:17:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                      "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                       "typeString": "contract IContractRegistry"
                     }
                   },
@@ -904,7 +904,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                    "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                     "typeString": "contract ITRC20Token"
                   },
                   "typeName": {
@@ -912,10 +912,10 @@
                     "id": 2896,
                     "name": "ITRC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8049,
+                    "referencedDeclaration": 4070,
                     "src": "1201:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                      "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                       "typeString": "contract ITRC20Token"
                     }
                   },
@@ -988,7 +988,7 @@
             "scope": 2945,
             "src": "1068:697:5",
             "stateMutability": "nonpayable",
-            "superFunction": 6285,
+            "superFunction": 3769,
             "visibility": "public"
           }
         ],
@@ -1036,7 +1036,7 @@
         "id": 2876,
         "nodeType": "ImportDirective",
         "scope": 2946,
-        "sourceUnit": 6287,
+        "sourceUnit": 3771,
         "src": "57:50:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1047,7 +1047,7 @@
         "id": 2877,
         "nodeType": "ImportDirective",
         "scope": 2946,
-        "sourceUnit": 8928,
+        "sourceUnit": 4450,
         "src": "108:53:5",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1061,10 +1061,10 @@
               "id": 2878,
               "name": "IBancorConverterFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 6286,
+              "referencedDeclaration": 3770,
               "src": "233:23:5",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IBancorConverterFactory_$6286",
+                "typeIdentifier": "t_contract$_IBancorConverterFactory_$3770",
                 "typeString": "contract IBancorConverterFactory"
               }
             },
@@ -1075,7 +1075,7 @@
         ],
         "contractDependencies": [
           2872,
-          6286
+          3770
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1083,7 +1083,7 @@
         "id": 2945,
         "linearizedBaseContracts": [
           2945,
-          6286
+          3770
         ],
         "name": "BancorConverterFactory",
         "nodeType": "ContractDefinition",
@@ -1244,7 +1244,7 @@
                         "referencedDeclaration": 2891,
                         "src": "1380:6:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                          "typeIdentifier": "t_contract$_ISmartToken_$3990",
                           "typeString": "contract ISmartToken"
                         }
                       },
@@ -1257,7 +1257,7 @@
                         "referencedDeclaration": 2893,
                         "src": "1400:9:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                          "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                           "typeString": "contract IContractRegistry"
                         }
                       },
@@ -1283,7 +1283,7 @@
                         "referencedDeclaration": 2897,
                         "src": "1454:15:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                          "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                           "typeString": "contract ITRC20Token"
                         }
                       },
@@ -1304,11 +1304,11 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                          "typeIdentifier": "t_contract$_ISmartToken_$3990",
                           "typeString": "contract ISmartToken"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                          "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                           "typeString": "contract IContractRegistry"
                         },
                         {
@@ -1316,7 +1316,7 @@
                           "typeString": "uint32"
                         },
                         {
-                          "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                          "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                           "typeString": "contract ITRC20Token"
                         },
                         {
@@ -1332,7 +1332,7 @@
                       "nodeType": "NewExpression",
                       "src": "1347:19:5",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ISmartToken_$7969_$_t_contract$_IContractRegistry_$8927_$_t_uint32_$_t_contract$_ITRC20Token_$8049_$_t_uint32_$returns$_t_contract$_BancorConverter_$2872_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_ISmartToken_$3990_$_t_contract$_IContractRegistry_$4449_$_t_uint32_$_t_contract$_ITRC20Token_$4070_$_t_uint32_$returns$_t_contract$_BancorConverter_$2872_$",
                         "typeString": "function (contract ISmartToken,contract IContractRegistry,uint32,contract ITRC20Token,uint32) returns (contract BancorConverter)"
                       },
                       "typeName": {
@@ -1377,7 +1377,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1548:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1426,7 +1426,7 @@
                       "lValueRequested": false,
                       "memberName": "transferOwnership",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8544,
+                      "referencedDeclaration": 4219,
                       "src": "1520:27:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -1463,7 +1463,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1598:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1512,7 +1512,7 @@
                       "lValueRequested": false,
                       "memberName": "transferManagement",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8464,
+                      "referencedDeclaration": 4139,
                       "src": "1569:28:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
@@ -1649,7 +1649,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8985,
+                          "referencedDeclaration": 4507,
                           "src": "1713:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1754,7 +1754,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                    "typeIdentifier": "t_contract$_ISmartToken_$3990",
                     "typeString": "contract ISmartToken"
                   },
                   "typeName": {
@@ -1762,10 +1762,10 @@
                     "id": 2890,
                     "name": "ISmartToken",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 7969,
+                    "referencedDeclaration": 3990,
                     "src": "1102:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ISmartToken_$7969",
+                      "typeIdentifier": "t_contract$_ISmartToken_$3990",
                       "typeString": "contract ISmartToken"
                     }
                   },
@@ -1782,7 +1782,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                    "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                     "typeString": "contract IContractRegistry"
                   },
                   "typeName": {
@@ -1790,10 +1790,10 @@
                     "id": 2892,
                     "name": "IContractRegistry",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8927,
+                    "referencedDeclaration": 4449,
                     "src": "1130:17:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IContractRegistry_$8927",
+                      "typeIdentifier": "t_contract$_IContractRegistry_$4449",
                       "typeString": "contract IContractRegistry"
                     }
                   },
@@ -1836,7 +1836,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                    "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                     "typeString": "contract ITRC20Token"
                   },
                   "typeName": {
@@ -1844,10 +1844,10 @@
                     "id": 2896,
                     "name": "ITRC20Token",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 8049,
+                    "referencedDeclaration": 4070,
                     "src": "1201:11:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ITRC20Token_$8049",
+                      "typeIdentifier": "t_contract$_ITRC20Token_$4070",
                       "typeString": "contract ITRC20Token"
                     }
                   },
@@ -1920,7 +1920,7 @@
             "scope": 2945,
             "src": "1068:697:5",
             "stateMutability": "nonpayable",
-            "superFunction": 6285,
+            "superFunction": 3769,
             "visibility": "public"
           }
         ],
@@ -1936,5 +1936,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-18T21:02:59.449Z"
+  "updatedAt": "2018-08-20T11:40:03.897Z"
 }

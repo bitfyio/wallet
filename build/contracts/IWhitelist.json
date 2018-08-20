@@ -31,14 +31,14 @@
     "absolutePath": "/Users/dbuarque/workspace/bitfy/contracts/utility/interfaces/IWhitelist.sol",
     "exportedSymbols": {
       "IWhitelist": [
-        8970
+        4492
       ]
     },
-    "id": 8971,
+    "id": 4493,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8962,
+        "id": 4484,
         "literals": [
           "solidity",
           "^",
@@ -46,7 +46,7 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:39"
+        "src": "0:24:23"
       },
       {
         "baseContracts": [],
@@ -54,9 +54,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 8970,
+        "id": 4492,
         "linearizedBaseContracts": [
-          8970
+          4492
         ],
         "name": "IWhitelist",
         "nodeType": "ContractDefinition",
@@ -64,7 +64,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 8969,
+            "id": 4491,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -72,16 +72,16 @@
             "name": "isWhitelisted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8965,
+              "id": 4487,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8964,
+                  "id": 4486,
                   "name": "_address",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8969,
-                  "src": "105:16:39",
+                  "scope": 4491,
+                  "src": "105:16:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -89,10 +89,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 8963,
+                    "id": 4485,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "105:7:39",
+                    "src": "105:7:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -102,20 +102,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "104:18:39"
+              "src": "104:18:23"
             },
             "payable": false,
             "returnParameters": {
-              "id": 8968,
+              "id": 4490,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8967,
+                  "id": 4489,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8969,
-                  "src": "144:4:39",
+                  "scope": 4491,
+                  "src": "144:4:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -123,10 +123,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 8966,
+                    "id": 4488,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "144:4:39",
+                    "src": "144:4:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -136,33 +136,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "143:6:39"
+              "src": "143:6:23"
             },
-            "scope": 8970,
-            "src": "82:68:39",
+            "scope": 4492,
+            "src": "82:68:23",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 8971,
-        "src": "56:96:39"
+        "scope": 4493,
+        "src": "56:96:23"
       }
     ],
-    "src": "0:153:39"
+    "src": "0:153:23"
   },
   "legacyAST": {
     "absolutePath": "/Users/dbuarque/workspace/bitfy/contracts/utility/interfaces/IWhitelist.sol",
     "exportedSymbols": {
       "IWhitelist": [
-        8970
+        4492
       ]
     },
-    "id": 8971,
+    "id": 4493,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8962,
+        "id": 4484,
         "literals": [
           "solidity",
           "^",
@@ -170,7 +170,7 @@
           ".23"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:39"
+        "src": "0:24:23"
       },
       {
         "baseContracts": [],
@@ -178,9 +178,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 8970,
+        "id": 4492,
         "linearizedBaseContracts": [
-          8970
+          4492
         ],
         "name": "IWhitelist",
         "nodeType": "ContractDefinition",
@@ -188,7 +188,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 8969,
+            "id": 4491,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -196,16 +196,16 @@
             "name": "isWhitelisted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8965,
+              "id": 4487,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8964,
+                  "id": 4486,
                   "name": "_address",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8969,
-                  "src": "105:16:39",
+                  "scope": 4491,
+                  "src": "105:16:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -213,10 +213,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 8963,
+                    "id": 4485,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "105:7:39",
+                    "src": "105:7:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -226,20 +226,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "104:18:39"
+              "src": "104:18:23"
             },
             "payable": false,
             "returnParameters": {
-              "id": 8968,
+              "id": 4490,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8967,
+                  "id": 4489,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8969,
-                  "src": "144:4:39",
+                  "scope": 4491,
+                  "src": "144:4:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -247,10 +247,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 8966,
+                    "id": 4488,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "144:4:39",
+                    "src": "144:4:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -260,20 +260,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "143:6:39"
+              "src": "143:6:23"
             },
-            "scope": 8970,
-            "src": "82:68:39",
+            "scope": 4492,
+            "src": "82:68:23",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 8971,
-        "src": "56:96:39"
+        "scope": 4493,
+        "src": "56:96:23"
       }
     ],
-    "src": "0:153:39"
+    "src": "0:153:23"
   },
   "compiler": {
     "name": "solc",
@@ -281,5 +281,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-18T19:31:46.130Z"
+  "updatedAt": "2018-08-19T23:39:40.767Z"
 }
